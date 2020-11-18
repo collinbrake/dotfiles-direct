@@ -9,5 +9,5 @@ method avoids the use of a tool like stow, as described in this [blog post](http
 - Copy the `.git/` directory from the repo to the home directory
 - `git status` will show the missing files
 - `git reset --hard` will add the missing files to the home directory
-- `rm -rf ~/<dotfiles directory>`
-  - Be very careful not to remove unitended files with the `rm -rf` command!
+- `rm -r ~/<dotfiles directory>`
+  - Be careful not to remove unitended files with the `rm -r` command.
